@@ -8,6 +8,7 @@ import Projects from '../src/Components/Projects';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Services from './Components/Services';
 import About from './Components/About'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <Route path="/services" component={Services}/>
       <Route path="/about" component={About}/>
       </Router>
-    
+      <Footer/>
     </div>
   );
 }

@@ -7,8 +7,8 @@
   
   .gallery-section{
     width: 100%;
-    padding: 60px 0;
-  /*  background: #f1f1f1;*/
+    padding: 0px 0;
+    background: #f1f1f1;
   }
   
   .inner-width{
@@ -16,19 +16,21 @@
     max-width: 1200px;
     margin: auto;
     padding: 0 20px;
+    background:red;
   }
   
   .gallery-section h1{
-    text-align: center;
+    text-align: start;
     text-transform: uppercase;
-    color:  #f1f1f1
+    color:  #f1f1f1;
+    vertical-align: center;
+   
+
     /*#333;*/
   }
   
   .border{
-    width: 180px;
-    height: 4px;
-    background: #333;
+    
     margin: 60px auto;
   }
   

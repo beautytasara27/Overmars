@@ -5,7 +5,7 @@ function NavBar(){
     return(
         <div id="menu-nav" class="container">
         <div id="navigation-bar">
-          <ul>
+          <ul className="listNone">
             <li><a href="/"><i class="fa fa-home"></i><span>Home</span></a></li>
             <li><a href="services"><i class="fa fa-handshake"></i><span>Services</span></a></li>
             <li><a href="/about"><i class="fa fa-user"></i><span>About</span></a></li>

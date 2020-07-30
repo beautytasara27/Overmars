@@ -53,12 +53,13 @@ body {
   left: 0;
 }
  
-li {
-	list-style: none;
+
+.listNone{
+  list-style: none;
 }
 
 .home {
-  background-image: url('../images/tools-864983_1920.jpg');
+  
   width: 100%;
   height: 1000px;
   padding: 0;
@@ -71,3 +72,4 @@ li {
 .header {
 
 }
+
