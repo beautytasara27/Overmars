@@ -8,9 +8,9 @@ function Projects() {
   return (
 
     <div class="gallery-section">
-
+    
       <div class="inner-width">
-        <Header/>
+        
         <br/>
         <div className="page-name">
         <br />

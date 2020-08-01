@@ -5,94 +5,96 @@ import Header from './Header'
 
 function Services() {
     return (
-        
-            <div className="service-section">
-            
-           
+
+        <div className="service-section">
+            <div className=" inner-widh">
                 
-                <div className=" inner-width list">
-                <Header/>
-                <br/>
-                <div> <h1>Services</h1></div>
-                <div >
-                <img className= "image" src="img/worker.jpg" alt="hey"/>
-                </div>
-                <br/>
-                    <div class="aim">
-                        <p>With every project, OverMars implements a series of procedures that provides critical guidelines by which each component of the project may be carefully and precisely monitored. OverMars actively participates with our clients and their design team during each stage of the project to ensure a project that produces the best value within the budget.</p>
+                <div className="servicess">
+                    <div className="row justify-content-between">
+                        <div className="col aim" style={{ textAlign: "center", width: "30%", paddingTop: "300px", color: "white" }}>
+                            <p>With every project, OverMars implements a series of procedures that provides critical guidedivnes by which each component of the project may be carefdivly and precisely monitored. OverMars actively participates with our cdivents and their design team during each stage of the project to ensure a project that produces the best value within the budget.</p>
+                            <div style={{  width: "30%", color: "white" }}> <button className="button">Get Quotation</button></div>
+                            </div>
+                        <div className="col-8"></div>
+                        
                     </div>
-                    <br/>
-                    <ul class="text listNone ">
-                      
-                        <li>
-                            <h5>Painting</h5>
-                            <ul className="leftMargin">
-                                <li>Large scale professional painting</li>
-                                <li>Small scale renovational painting</li>
-                            </ul>
-                        </li>
+                    </div>
+                    <br />
+                    <h2>Services</h2>
+                    <div className="row justify-content-between" style={{ paddingTop: "50px" }}>
                         <br/>
-                        <li>
-                            <h5>Plumbing</h5>
-                            <ul className="leftMargin">
-                                <li>Commercial plumbing</li>
-                                <li>Domestic plumbing</li>
-                                <li>General maintenance on call</li>
-                            </ul>
-                        </li>
-                        <br/>
-                        <li>
-                            <h5>Renovations</h5>
-                            <ul className="leftMargin">
-                                <li>Full face lift</li>
-                                <li>Building</li>
-                                <li>Ceiling repairs</li>
-                                <li>Tiling</li>
-                            </ul>
-                        </li>
-                        <br/>
-                        <li>
-                        <h5>Bricklaying and Plastering</h5>
-                        <ul className="leftMargin">
-                            <li>Professional bricklaying</li>
-                            <li>Domestic bricklaying</li>
-                        </ul>
-                    </li>
-                        <br/>
-                        <li>
-                            <h5>Waterproofing and Damp Proofing</h5>
-                            <ul className="leftMargin">
-                                <li>Membrane waterproofing</li>
-                                <li>Torch on waterproofing</li>
-                                <li>Crack repairs</li>
-                                <li>Damp repairs</li>
-                            </ul>
-                        </li>
-                        <br/>
-                        <li>
-                            <h5>Carpentry and Drywall Partitioning</h5>
-                            <ul className="leftMargin">
-                                <li>All woodwork fitting</li>
-                                <li>Office partitioning and repairs</li>
-                                <li>Ceiling - suspended and gypsum board</li>
-                            </ul>
-                        </li>
-                        <br/>
-                        <li>
-                            <h5>Other Services</h5>
-                            <ul className="leftMargin">
-                                <li>Vinyl sheeting</li>
-                                <li>Epoxy and urethane floors</li>
-                                <li>Concrete expansions, joins, repairs etc.</li>
-                            </ul>
-                        </li>
-                        <br/>
-                        <br/>
-                    </ul>
-                </div>
-                <Footer1/>
+                        <div class="text card-group" style={{paddingRight:"20px"}}>
+                            <div className="card">
+                                <h5 className="card-header">Painting</h5>
+                                <div className=" list-group list-group-flush">
+                                    <div className="list-group-item">Large scale professional painting</div>
+                                    <div className="list-group-item">Small scale renovational painting</div>
+                                </div>
+                            </div>
+                            <br/>
+                            <div className="card">
+                                <h5 className="card-header">Plumbing</h5>
+                                <div className=" list-group list-group-flush">
+                                    <div className="list-group-item">Commercial plumbing</div>
+                                    <div className="list-group-item">Domestic plumbing</div>
+                                    <div className="list-group-item">General maintenance on call</div>
+                                </div>
+                            </div>
+                            <br />
+                            <div className="card">
+                                <h5 className="card-header">Renovations</h5>
+                                <div className=" list-group list-group-flush">
+                                    <div className="list-group-item">Fdivl face lift</div>
+                                    <div className="list-group-item">Building</div>
+                                    <div className="list-group-item">Ceiling repairs</div>
+                                    <div className="list-group-item">Tiling</div>
+                                </div>
+                            </div>
+                            <br />
+                            <div className="card">
+                                <h5 className="card-header">Bricklaying and Plastering</h5>
+                                <div className=" list-group list-group-flush">
+                                    <div className="list-group-item">Professional bricklaying</div>
+                                    <div className="list-group-item">Domestic bricklaying</div>
+                                </div>
+                            </div>
+                            <br />
+                            <div className="card">
+                                <h5 className="card-header">Waterproofing and Damp Proofing</h5>
+                                <div className=" list-group list-group-flush">
+                                    <div className="list-group-item">Membrane waterproofing</div>
+                                    <div className="list-group-item">Torch on waterproofing</div>
+                                    <div className="list-group-item">Crack repairs</div>
+                                    <div className="list-group-item">Damp repairs</div>
+                                </div>
+                            </div>
+                            <br />
+                            <div className="card">
+                                <h5 className="card-header">Carpentry and Drywall Partitioning</h5>
+                                <div className=" list-group list-group-flush">
+                                    <div className="list-group-item">All woodwork fitting</div>
+                                    <div className="list-group-item">Office partitioning and repairs</div>
+                                    <div className="list-group-item">Ceiling - suspended and gypsum board</div>
+                                </div>
+                            </div>
+                            <br />
+                            <div className="card">
+                                <h5 className="card-header">Other Services</h5>
+                                <div className=" list-group list-group-flush">
+                                    <div className="list-group-item">Vinyl sheeting</div>
+                                    <div className="list-group-item">Epoxy and urethane floors</div>
+                                    <div className="list-group-item">Concrete expansions, joins, repairs etc.</div>
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                        </div>
+                    </div>
+                
+                
             </div>
-            
+        </div>
+
     )
 }
 

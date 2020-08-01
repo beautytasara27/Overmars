@@ -8,9 +8,9 @@ function Contact() {
       <section id="contact-section">
       
         <div class=" inner-width">
-        <Header/>
+        
           <h2>Contact Us</h2>
-          <p>Email us with questions</p>
+          <p>We value feedback from our customers</p>
           <div class="contact-form">
 
 
@@ -30,7 +30,7 @@ function Contact() {
                 <input type="Email" placeholder="Email" required />
                 <input type="text" placeholder="Subject" />
                 <textarea name="message" placeholder="Message" rows="5" required></textarea>
-                <button class="submit" >Send Message</button>
+                <button class=" butto" >Send Message</button>
               </form>
             </div>
           </div>

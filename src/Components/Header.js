@@ -7,8 +7,9 @@ function Header() {
 
         <div className="inner-widt">
             <div className=" row ">
-                <div className="col-2 logo-div"><img className="logo" src="logo4.png" alt="logo" /></div>
+                <div className="col-2 logo-div"></div>
                 <div className="col header-list">
+                <div><p>You dream it, We build it</p></div>
                     <div className="row header-list justify-content-end" >
                            <p className="header-items">Get Quotation</p>
                            <p className="header-items">|</p>

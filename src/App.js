@@ -9,6 +9,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Services from './Components/Services';
 import About from './Components/About'
 import Footer from './Components/Footer'
+import Header from './Components/Header'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route path="/services" component={Services}/>
       <Route path="/about" component={About}/>
       </Router>
+      <br/>
       <Footer/>
     </div>
   );

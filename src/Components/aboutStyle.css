@@ -49,19 +49,21 @@
 .user-name {
   margin-top: 30px;
   font-size: 35px;
+  color: black;
 }
 
 .profile h5 {
   font-size: 18px;
   font-weight: 100;
   letter-spacing: 3px;
-  color: #ccc;
+  color: rgb(32, 29, 29);
 }
 
 .profile p {
   font-size: 16px;
   margin-top: 20px;
   text-align: justify;
+  color: black;
 }
 
 @media only screen and (max-width: 1150px) {

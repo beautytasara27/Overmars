@@ -60,3 +60,16 @@ list-style: square inside;
   height: auto;
   margin: 0px;
 }
+
+.card{
+  width: 40%;
+}
+
+.servicess {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(/img/worker.jpg);
+  
+  background-size: cover;
+      background-position: center;
+      height: 800px;
+      width: 100% ;
+}
