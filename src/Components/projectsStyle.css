@@ -8,7 +8,8 @@
   .gallery-section{
     width: 100%;
     padding: 0px 0;
-    background: #f1f1f1;
+    box-shadow: black;
+    
   }
   
   .inner-width{
@@ -16,16 +17,17 @@
     max-width: 1200px;
     margin: auto;
     padding: 0 20px;
-    background:red;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3)
   }
   
   .gallery-section h1{
     text-align: start;
     text-transform: uppercase;
-    color:  #f1f1f1;
+    color:  black;
     vertical-align: center;
+    
    
-
     /*#333;*/
   }
   
@@ -74,3 +76,26 @@
     }
   }
   
+  .logo{
+    max-width: 100%;
+    
+  }
+.logo-div{
+  padding-left: 0px;
+  background-color: white;
+}
+
+.header-list{
+  margin-top: 30px;
+  text-align: end;
+  
+}
+
+.header-items{
+ padding-left: 10px;
+}
+
+.page-name{
+  background-color: hsl(192, 15%, 94%);
+  margin: 0px;
+}

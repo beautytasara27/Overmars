@@ -29,7 +29,7 @@ body{
        text-decoration: underline;
         /* text-decoration-color:red; */
         text-underline-position: under;
-        color: rgb(238, 235, 235);
+        color: rgb(20, 13, 13);
         letter-spacing: 2px;
         
     }
@@ -42,7 +42,7 @@ body{
       margin-left: auto;
        margin-right: auto; 
        padding-bottom: 3%;
-       color: #fff;
+       color: rgb(20, 13, 13);
        letter-spacing:3px;
     }
 
@@ -74,7 +74,7 @@ body{
       .form-info{
         font-size: 16px;
         font-style: italic;
-        color: white;
+        color:rgb(20, 13, 13);
         letter-spacing: 2px;
       }
       input{
@@ -82,13 +82,13 @@ body{
         margin:10px;
         width: 70%;
         background-color:rgba(136, 133, 133, 0.5);
-        color: white;
+        color:rgb(20, 13, 13);
         border: none;
         outline:none;
       }
 
       input::placeholder{
-        color: white;
+        color: rgb(20, 13, 13);
       }
     
        textarea{
@@ -96,12 +96,12 @@ body{
       margin: 10px;     
       width: 70%;
       background-color:rgba(136, 133, 133, 0.5);
-      color: white;
+      color: rgb(20, 13, 13);
       border: none;
       outline:none;
      }
      textarea::placeholder{
-       color: white;
+       color: rgb(20, 13, 13);
      }
      
       
@@ -122,12 +122,12 @@ body{
       letter-spacing: 2px;
       margin-left: 3%;
       border:2px solid rgb(190, 190, 190);
-      color: rgb(190, 190, 190);
+      color: rgb(20, 13, 13);
      }
 
      .submit:hover{
            border: 1px solid #fff;
-      color: #fff;
+      color: rgb(20, 13, 13);
       cursor: pointer;
      }
 

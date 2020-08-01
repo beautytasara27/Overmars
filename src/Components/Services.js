@@ -1,13 +1,19 @@
 import React from 'react'
 import '../Components/servicesStyle.css'
+import Footer1 from './Footer1'
+import Header from './Header'
 
 function Services() {
     return (
         
             <div className="service-section">
-            <h1>Services</h1>
-                <div className="border"></div>
-                <div className=" inner-width list container jumbotron">
+            
+           
+                
+                <div className=" inner-width list">
+                <Header/>
+                <br/>
+                <div> <h1>Services</h1></div>
                 <div >
                 <img className= "image" src="img/worker.jpg" alt="hey"/>
                 </div>
@@ -84,8 +90,9 @@ function Services() {
                         <br/>
                     </ul>
                 </div>
+                <Footer1/>
             </div>
-        
+            
     )
 }
 
