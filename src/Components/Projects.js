@@ -81,7 +81,6 @@ function Projects() {
           </div>
         </div>
       </div>
-      <Footer1 />
     </div>
 
 

@@ -13,14 +13,20 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   padding-top: 15px;
 }
+.navbar{
+  background-color: rgb(14, 12, 12);
+}
  
+.space{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 #navigation-bar ul {
   border-radius: 0px;
   overflow: hidden;
 }
 #navigation-bar li {
-  float: right;
-  width: 10%;
+ 
 }
 #navigation-bar li:hover a::before {
   right: 0;
@@ -191,3 +197,4 @@ margin-right: 5px;
 .logo{
   color: #e74c3c;
 }
+
