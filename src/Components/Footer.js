@@ -35,7 +35,7 @@ return(
         <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
                 <p><u><a href="#">OverMars</a></u>Construction 2020.</p>
-                <p className="h6">© All right Reversed.<a className="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Mentalhealthfirst.social</a></p>
+                <p className="h6">© All right Reserved.<a className="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">OverMars.netlify.app</a></p>
             </div>
             <hr />
         </div>

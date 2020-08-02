@@ -9,8 +9,8 @@ function NavBar() {
     <div id="menu-nav" >
       <nav id="navigation-bar" class="navbar navbar-expand-md ">
         <a class="navbar-brand" href="#"><h1 className="logo">OverMars</h1></a>
-        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <i class="far fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse  " id="collapsibleNavbar">
           <ul class="navbar-nav ">
